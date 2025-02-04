@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_69869" data-name="Group 69869" transform="translate(-1790 -278)">
+    <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(1790 278)" fill="#fff" stroke="#fde7e8" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+      <rect width="30" height="30" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="29" height="29" rx="4.5" fill="none"/>
+    </g>
+    <path id="document" d="M7.6,7.761h.72a.72.72,0,1,0,0-1.44H7.6a.72.72,0,0,0,0,1.44Zm0,1.44a.72.72,0,0,0,0,1.44h4.321a.72.72,0,0,0,0-1.44ZM15.522,7a.943.943,0,0,0-.043-.194V6.738a.771.771,0,0,0-.137-.2h0L11.021,2.216h0a.771.771,0,0,0-.2-.137.23.23,0,0,0-.065,0A.634.634,0,0,0,10.517,2H6.16A2.16,2.16,0,0,0,4,4.16V14.242A2.16,2.16,0,0,0,6.16,16.4h7.2a2.16,2.16,0,0,0,2.16-2.16V7ZM11.2,4.456l1.865,1.865H11.921a.72.72,0,0,1-.72-.72Zm2.88,9.786a.72.72,0,0,1-.72.72H6.16a.72.72,0,0,1-.72-.72V4.16a.72.72,0,0,1,.72-.72h3.6V5.6a2.16,2.16,0,0,0,2.16,2.16h2.16Zm-2.16-2.16H7.6a.72.72,0,0,0,0,1.44h4.321a.72.72,0,0,0,0-1.44Z" transform="translate(1795.238 284)" fill="#000000"/>
+  </g>
+</svg>

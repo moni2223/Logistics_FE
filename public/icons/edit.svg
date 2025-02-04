@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51" height="51" viewBox="0 0 51 51">
+  <defs>
+    <filter id="Rectangle_26977" x="0" y="0" width="51" height="51" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_26977)">
+    <g id="Rectangle_26977-2" data-name="Rectangle 26977" transform="translate(3 2)" fill="#fff" stroke="#d6d7d8" stroke-width="0.5" opacity="0.998">
+      <rect width="45" height="45" rx="5" stroke="none"/>
+      <rect x="0.25" y="0.25" width="44.5" height="44.5" rx="4.75" fill="none"/>
+    </g>
+  </g>
+  <path id="edit" d="M3,15.635v2.657a.432.432,0,0,0,.436.436H6.094a.409.409,0,0,0,.305-.136l9.546-9.534L12.673,5.785,3.136,15.32A.43.43,0,0,0,3,15.635ZM18.477,6.528a.87.87,0,0,0,0-1.227L16.431,3.256a.87.87,0,0,0-1.227,0l-1.6,1.6,3.273,3.273,1.6-1.6Z" transform="translate(14.635 13.635)" fill="#515867"/>
+</svg>

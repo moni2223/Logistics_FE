@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Group_71632" data-name="Group 71632" transform="translate(-568 994)">
+    <g id="Ellipse_9315" data-name="Ellipse 9315" transform="translate(568 -994)" fill="#fff" stroke="#15dd95" stroke-width="1">
+      <circle cx="10" cy="10" r="10" stroke="none"/>
+      <circle cx="10" cy="10" r="9.5" fill="none"/>
+    </g>
+    <circle id="Ellipse_9317" data-name="Ellipse 9317" cx="8" cy="8" r="8" transform="translate(570 -992)" fill="#15dd95"/>
+    <path id="check" d="M1,7.338,2.335,6,5.006,8.674,9.68,4l1.335,1.335L5.006,11.344Z" transform="translate(571.993 -992)" fill="#fff"/>
+  </g>
+</svg>

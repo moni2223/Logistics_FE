@@ -1,0 +1,36 @@
+@import "../../../base";
+
+.buttons-raised-container {
+  @apply relative overflow-hidden flex items-center justify-center h-10 p-4 m-2 bg-custom_red shadow-lg rounded-md text-base text-white cursor-pointer;
+  font-family: "FireSans", sans-serif;
+  &.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+
+  &:active {
+    transform: scale(0.99);
+  }
+  .circle {
+    position: absolute;
+    background-color: white;
+    opacity: 0.6;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    animation: scale 0.5s ease-out;
+  }
+  &.reversed {
+    @apply bg-white text-custom_green border border-custom_green;
+  }
+  &.green {
+    @apply bg-custom_green;
+  }
+}
+@keyframes scale {
+  to {
+    transform: translate(-50%, -50%) scale(3);
+    opacity: 0;
+  }
+}

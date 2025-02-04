@@ -1,0 +1,54 @@
+.button-container {
+  &.disabled {
+    opacity: 0.3;
+    cursor: default;
+  }
+  &.selected {
+    background-color: #15dd95 !important;
+    border: none;
+    color: white;
+    box-shadow: none;
+  }
+  &.timer {
+    background-color: #e3fff5 !important;
+    border: none;
+    color: white;
+    box-shadow: none;
+    padding: 12px 44px;
+    cursor: default;
+  }
+  &.continuE {
+    border: 1px solid #b6f3de;
+  }
+  &.cancel {
+    background-color: #e80111;
+    border: #e80111;
+    color: white;
+    box-shadow: none;
+  }
+  &.semi-cancel {
+    background-color: #f0b1b5;
+    color: #e80111;
+    box-shadow: none;
+  }
+  &.delete {
+    border: 1px solid #e80111;
+  }
+  &.dark-selected {
+    background-color: #002c78;
+    color: white;
+    box-shadow: none;
+  }
+  &.transparent {
+    background-color: transparent;
+    color: black;
+    box-shadow: none;
+    border: 1px solid red;
+  }
+}
+
+@media only screen and (max-width: 1030px) {
+  .button-container{
+    @apply text-xs #{!important};
+  }
+}

@@ -1,0 +1,33 @@
+.input-container {
+  .prefix-input-container {
+    border: 0.3px solid rgb(165, 164, 164);
+    &.failed {
+      border: 1px solid red;
+    }
+    &.disabled {
+      background-color: #e6edff;
+    }
+  }
+}
+
+.suffix {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  border-left: 1px solid #002c78;
+  padding-left: 5px;
+  margin-right: 1%;
+}
+.check-password {
+  background-image: url("../../../assets/icons/see-password.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+input[value="0000-00-00"]::-webkit-datetime-edit {
+  color: transparent;
+}

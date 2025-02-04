@@ -1,0 +1,64 @@
+@import "../../../base.scss";
+
+.buttons-tab-container {
+    position: relative;
+    margin: 10px 0;
+    .underlined-tab {
+        padding: 10px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $color-white;
+        border: 1px solid $color-border;
+        border-radius: 5px;
+        box-shadow: 0px 1px 4px $color-shadow;
+        transition: ease-in-out 0.3s all;
+        cursor: pointer;
+        font-size: 13px;
+        height: 40px;
+        &:not(:last-child) {
+            margin-right: 15px;
+        }
+        &.active {
+            @apply bg-custom_darkblue;
+            z-index: 1;
+            span {
+                color: $color-white;
+                font-weight: 500;
+            }
+        }
+        &.disabled {
+            pointer-events: none;
+            cursor: default;
+            opacity: 0.5;
+        }
+        &.invalid {
+           opacity: 0.5;
+        }
+        &:focus {
+            border-style: dashed;
+        }
+    }
+    &.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.5;
+    }
+    &.invalid .underlined-tab {
+        border: 1px solid $color-red;
+        
+    }
+    &.navigation {
+        margin: 0;
+        border-radius: 6px;
+        border: 1px solid $color-border;
+        .underlined-tab {
+            text-transform: uppercase;
+            border-color: transparent;
+            flex: 1;
+            margin: 0;
+            height: 38px;
+            font-weight: 400;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+@import "../../../base";
+
+.row.row-locked {
+    position: relative;
+    height: 100%;
+    overflow-y: hidden;
+    .table-locked-container .table-row-container .table-row-inner-container {
+        background-color: $color-white;
+        .table-row-cell:last-of-type {
+            padding-right: 14px;
+        }
+    }
+}

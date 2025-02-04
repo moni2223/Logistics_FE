@@ -1,0 +1,26 @@
+.react-datepicker-wrapper {
+  width: 100%;
+}
+.date-picker {
+  @apply h-10 rounded-md w-full text-lg flex items-center;
+  border: 0.3px solid rgb(165, 164, 164);
+  &.failed {
+    border: 1px solid red !important;
+  }
+}
+.failed {
+  border: 1px solid red;
+  border-radius: 7px;
+  .date-picker {
+    border: none !important;
+  }
+}
+.date-picker:focus {
+  outline: none;
+}
+.react-datepicker__navigation-icon--next::before{
+  top:12px !important;
+}
+.react-datepicker__navigation-icon--previous::before{
+  top:12px !important;
+}
